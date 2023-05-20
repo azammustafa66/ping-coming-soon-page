@@ -89,8 +89,9 @@ button {
   color: #fff;
 }
 
-button:hover {
+button:hover, button:focus {
   cursor: pointer;
+  filter: brightness(1.2);
 }
 
 img {
@@ -104,9 +105,16 @@ img {
 }
 
 .errormessage {
-  color: red;
-  font-style: italic;
-  margin-top: 0.5rem;
+  position: absolute;
+	top: 115%;
+	right: 0;
+	left: 0;
+	font-size: 0.85rem;
+	font-weight: 300;
+	color: hsl(354, 100%, 66%);
+	font-style: italic;
+	display: none;
+	transition: 0.2s ease-out;
 }
 
 .socials {
