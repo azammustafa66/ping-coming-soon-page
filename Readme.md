@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./images/Screenshot.png)
+![Screenshot](./ping-coming-soon-page/images/Screenshot.png)
 
 ### Built with
 
