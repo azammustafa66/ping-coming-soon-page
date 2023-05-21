@@ -68,6 +68,10 @@ input:active, input:focus {
   outline: none;
 }
 
+input:invalid {
+  border: 1px solid red;
+  }
+
 .errormessage {
   color: red;
   font-style: italic;
